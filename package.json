@@ -1,0 +1,26 @@
+{
+  "name": "mark7",
+  "version": "1.0.0",
+  "description": "Projeto Mark7",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor conf.js",
+    "smoke": "protractor conf.js --grep='@smoke'",
+    "temp": "protractor conf.js --grep='@temp'",
+    "webdriver-update": "webdriver-manager update"
+  },
+  "keywords": [
+    "qa",
+    "protractor"
+  ],
+  "author": "Ronaldo",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine": "^3.2.0",
+    "jasmine-spec-reporter": "^4.2.1",
+    "mongoose": "^5.3.11",
+    "protractor": "^5.4.1",
+    "protractor-jasmine2-html-reporter": "0.0.7"
+  },
+  "dependencies": {}
+}
